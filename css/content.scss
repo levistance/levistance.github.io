@@ -1,6 +1,3 @@
----
----
-
 body {
     position: absolute; 
     top: 0;
@@ -29,80 +26,6 @@ body {
         text-align: center;
     }
 }
-
-@use "sass:math";
-$mobile-width: 450px;
-
-.content {
-    color: white;
-    .youtube {
-        text-align: center;
-        margin-bottom: 30px;
-        iframe {
-            width: 100%;
-            max-width: 560px;
-        }
-    }
-
-
-/*.content{
-    color:white;
-    //padding-left: 100px;
-    //padding-right: 100px;
-    
-    .content-box{
-        padding-bottom : 56.25%;
-        position: relative;
-        text-align: center;
-        margin-bottom: 30px;
-
-        .youtube{
-            position: absolute;
-            top : 0;
-            left : 0;
-            width : 100%;
-            height : 100%;
-            border : 0;
-        }
-}
-}*/
-
-
-    .music {
-        color: white;
-    }
-    .music-title {
-        font-size: 2rem;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .music-title-ko {
-        font-family: Roboto,Arial,sans-serif;
-        font-size: 0.8rem;
-    }
-    .music-description {
-        font-family: Roboto,Arial,sans-serif;
-        font-size: 0.8rem;
-    }
-    .lyrics-tag {
-        margin-top: 30px;
-        font-size: 2rem;
-        font-family: Roboto,Arial,sans-serif;
-    }
-    .lyrics {
-        font-family: Roboto,Arial,sans-serif;
-        margin-bottom: 10px;
-    }
-    .score {
-        img {
-            display: block;
-            width: 100%;
-        }
-    }
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 30px;
-    font-family: 'Playfair Display', serif;
 
 /*desktop*/
 @media (min-width: 451px) {
@@ -171,7 +94,7 @@ $mobile-width: 450px;
         text-align: start;
     }
 }
-}
+
 
 
 /*mobile */
